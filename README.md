@@ -1,24 +1,7 @@
-## Hi there 👋
-
-<!--
-**mrojas6996/mrojas6996** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
   <title>Mi Perfil GitHub - Estilo 90s</title>
   <style>
     body {
@@ -59,6 +42,23 @@ Here are some ideas to get you started:
       font-size: 18px;
       color: #008000;
     }
+    footer {
+      background-color: #000080;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .footer-gifs {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+    .footer-gifs img {
+      width: 88px;
+      height: 31px;
+      border: 2px inset #FFD700;
+    }
   </style>
 </head>
 <body>
@@ -72,5 +72,14 @@ Here are some ideas to get you started:
     <br><br>
     <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" class="gif" alt="GIF Cool">
   </div>
+
+  <footer>
+    <p>Botones clásicos de los 90:</p>
+    <div class="footer-gifs">
+      <img src="https://www.gifss.com/computers/buttons/button1.gif" alt="Botón 1">
+      <img src="https://www.gifss.com/computers/buttons/button2.gif" alt="Botón 2">
+      <img src="https://www.gifss.com/computers/buttons/button3.gif" alt="Botón 3">
+    </div>
+  </footer>
 </body>
 </html>
